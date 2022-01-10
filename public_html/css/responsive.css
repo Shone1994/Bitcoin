@@ -1,0 +1,78 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 3, 2019, 12:19:09 PM
+    Author     : frontend
+*/
+
+
+/*
+
+> 0px   XS - NO NAME
+
+
+> 576px SM - small devices
+
+
+
+> 768px MD  - medium devices
+
+
+> 992px  LG    large devices
+
+
+
+> 1200px  XL   extra large devices
+
+*/
+
+
+
+@media( min-width:576px){
+
+
+}
+
+
+@media(min-width:768px){
+    .lead-section .carousel-item .caption{
+        width: 50%;
+    }
+    .lead-section .carousel-item .caption h1{
+        font-size: 60px;
+        line-height: 80px;
+        letter-spacing: 2px;
+    }
+
+ 
+}
+
+
+@media(min-width:992px){
+
+    .navbar-light .navbar-nav .nav-link{
+        margin-right: 28px;
+    }
+    
+
+
+}
+
+
+@media(min-width:1200px){
+    
+    .container{
+        max-width: 1140px;
+    .navbar-light .navbar-nav .nav-link{
+        margin-right: 38px;
+     }
+    }
+        
+     
+    
+
+
+}
