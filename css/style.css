@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+/*FONTS*/
+/*
+font-family: 'Rubik', sans-serif;
+*/
+
+html {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 57px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  color: #031D5B;
+}
+
+.bg-blue {
+  background: #313A5A;
+}
+
+.bg-green {
+  background: #1FDB84;
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 -8px 34px 0 rgba(31, 219, 132, 0.6);
+}
+
+.bg-zelena {
+  background: #1FDB84;
+}
+
+/*NAVIGATION STYLE FOR MOBILE*/
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  border-bottom: 3px solid transparent;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.active,
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: #1FDB84;
+  border-bottom: 3px solid #1FDB84;
+  transition: all 0.6s linear;
+}
+
+.navbar .navbar-toggler span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin-bottom: 5px;
+  background: #1FDB84;
+  border: none;
+}
+
+.navbar .navbar-toggler span:last-of-type {
+  border-bottom: 0;
+}
+
+.bitcoin-slider a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px !important;
+  box-shadow: 0 -8px 34px 0 rgba(31, 219, 132, 0.6);
+}
+
+/*dots slided style*/
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot span {
+  background: transparent;
+  border: 1px solid #1FDB84;
+  margin-bottom: 30px;
+}
+
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #1FDB84;
+}
+/*LEAD SECTION STYLE*/
+.lead .owl-theme .owl-nav + .owl-dots {
+  margin-top: -35px;
+  padding: 20px;
+}
+
+/*BENEFIT SECTION STYLE*/
+.benefit .line {
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #1FDB84;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.benefit .row {
+  margin-top: -10px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 0 10px 34px 0 rgba(210, 210, 210, 0.5);
+}
+
+/*PRICING SECTION START*/
+.pricing {
+  padding-bottom: 50px;
+}
+
+.pricing .pricing-title {
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: 600;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.pricing .pricing-item {
+  padding: 25px;
+  border-top: 4px solid transparent;
+}
+
+.pricing .pricing-item.active,
+.pricing .pricing-item:hover {
+  transition: all 0.5s linear;
+  border-top: 4px solid #1FDB84;
+  background-color: white;
+  box-shadow: 0 7px 24px 0 rgba(83, 83, 83, 0.1);
+}
+
+.pricing .pricing-item .price,
+.pricing .pricing-item span {
+  font-size: 72px;
+  font-weight: 600;
+  color: #1FDB84;
+}
+
+.pricing .price-month {
+  margin-bottom: 60px;
+}
+
+.pricing .pricing-item ul li {
+  list-style: none;
+  line-height: 32px;
+}
+
+/*testimonials style*/
+.testimonials {
+  position: relative;
+}
+
+.testimonials .testimonials-item {
+  margin-top: 80px;
+}
+
+.testimonials .big-quote {
+  display: inline-block;
+  position: absolute;
+  opacity: 0.2;
+  font-size: 250px;
+  top: -50px;
+}
+
+.testimonials .testimonilas-title {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.testimonials .small-quote {
+  font-size: 30px;
+}
+
+.testimonials .testimonials-text {
+  font-size: 18px;
+  line-height: 36px;
+  margin-bottom: 114px;
+}
+
+.testimonials .testimonials-slider .testimonials-item:nth-of-type(even) {
+  background-color: white;
+  color: #5B6C94;
+}
+
+/*Gallery section style*/
+.gallery figure {
+  flex: 0 0 50%;
+  -webkit-flex: 0 0 50%;
+  -moz-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  position: relative;
+  margin:0;
+  opacity: 1;
+  overflow: hidden;
+}
+.gallery figure img:hover,
+.gallery figure img.active{
+  opacity: 0.5;
+  transform: scale(1.2);
+  transition: all 0.8s linear;
+}
+
+.gallery figure img {
+  display: block;
+  width: 100%;
+}
+
+.gallery .gallery-picture figure .fa-plus {
+
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 50%;
+  display: none;
+
+}
+
+.gallery .gallery-picture figure:hover .fa-plus,
+.gallery .gallery-picture figure.active .fa-plus{
+ display: block;
+font-size: 3rem;
+}
+
+/*CLIENT STYLE*/
+.client{
+  margin-bottom: 40px;
+}
+.client figure img{
+  max-width: 70%;
+}
+
+/*footer style*/
+footer nav a{
+  text-decoration: none;
+  font-size: 16px;
+  color: #5B6C94;
+}
+footer nav a:hover,
+footer nav a.active{
+ color: #031D5B;
+}
+
+
+
+/*ANIMACIJE*/
+
+/*ANIMACIJE*/
+@keyframes slideLeft{
+  0%{
+      opacity:0;
+      transform:translateX(50px);
+  }
+  100%{
+      opacity:1;
+      transform:translateX(0px);
+  }
+}
+
+.slide-left{
+  animation: slideLeft 1s linear;
+  animation-fill-mode: forwards;/*znaci da element ostane u zavrsnom stanju*/
+}
+
+@keyframes slideRight{
+  0%{
+      opacity:0;
+      transform:translateX(-50px);
+  }
+  100%{
+      opacity:1;
+      transform:translateX(0px);
+  }
+}
+
+.slide-right{
+  animation: slideRight 1s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideTop{
+  0%{
+      opacity:0;
+      transform:translateY(50px);
+  }
+  100%{
+      opacity:1;
+      transform:translateY(0px);
+  }
+}
+
+.slide-top{
+  animation: slideTop 1s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideBottom{
+  0%{
+      opacity:0;
+      transform:translateY(-50px);
+  }
+  100%{
+      opacity:1;
+      transform:translateY(0px);
+  }
+}
+.slide-bottom{
+  animation: slideBottom 1s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes zoom{
+  0%{
+      opacity: 0;
+      transform: scale(0); /*na ovaj nacin ce nas element da odzumira da bude nevidljiv*/
+  }
+  100%{
+      opacity: 1;
+      transform: scale(1);
+  }
+}
+.zoom{
+  animation: zoom 1s linear;
+  animation-fill-mode: forwards;
+}
+
+
+.animation{
+  position: relative;/*da bi ove animacije mogle da se izvrse*/
+  opacity: 0;
+  
+}
+
+
